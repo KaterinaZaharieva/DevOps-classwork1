@@ -3,6 +3,20 @@ on:
   push:
     branches: main
 jobs:
+SnykTest:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+        
+    - name: Run Snyk to check for vulnerabilities
+      working-directory: ${{github.workspace}}/src
+      run: |
+        pip install -r requirements.txt
+        npm install -g snyk
+        snyk auth ${{secrets.SNYK_TOKEN}}
+        snyk test
+        
  push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
