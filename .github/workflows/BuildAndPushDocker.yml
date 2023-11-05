@@ -23,4 +23,4 @@ jobs:
       #  run: docker tag classwor1 kzah/devops_classwork1:1.0
         
       - name: Push an image to DockerHub
-        run: docker pull kzah/devops_classwork1
+        run: docker push kzah/devops_classwork1:tagname
