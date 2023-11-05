@@ -19,8 +19,8 @@ jobs:
       - name: Build and push Docker image
         run: docker build -t "classwork1" .
 
-      - name: Tag an image
-        run: docker tag classwor1 kzah/devops_classwork1:1.0
+     # - name: Tag an image
+      #  run: docker tag classwor1 kzah/devops_classwork1:1.0
         
       - name: Push an image to DockerHub
-        run: docker push docker push kzah/devops_classwork1:1.0
+        run: docker pull kzah/devops_classwork1
