@@ -18,3 +18,6 @@ jobs:
       
       - name: Build and push Docker image
         run: docker build -t "classwork1" .
+        
+      - name: Push an image to DockerHub
+        run: docker push docker push kzah/devops_classwork1:classwor1
