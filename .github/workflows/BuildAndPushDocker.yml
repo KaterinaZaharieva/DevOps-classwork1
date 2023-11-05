@@ -3,7 +3,8 @@ on:
   push:
     branches: main
 jobs:
-  SnykTest:
+  
+  snyk_test:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -17,12 +18,12 @@ jobs:
         snyk auth ${{secrets.SNYK_TOKEN}}
         snyk test
         
-  SonarCloudTest:
+  sonnar_cloud_test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         env:
