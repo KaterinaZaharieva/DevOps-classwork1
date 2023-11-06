@@ -5,7 +5,7 @@ on: [push, pull_request]
 
 jobs:
   sonnar_cloud_test:
-    name: Sonnar cloud test
+    name: Sonnar cloud test on pull request and push
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
