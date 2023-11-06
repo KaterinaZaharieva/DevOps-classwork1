@@ -2,8 +2,7 @@ name:  SonarCloud at Merge Request
   
 on:
    push:
-    branches:
-      - master
+    branches: main
 jobs:
   sonnar_cloud_test:
     name: Sonnar cloud test
