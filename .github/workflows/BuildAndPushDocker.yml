@@ -3,6 +3,7 @@ on:
   push:
     branches: main
 jobs:
+
   check_code:
     name: Check code style & lint with flake8
     runs-on: ubuntu-latest
@@ -21,6 +22,8 @@ jobs:
           checkName: 'check_code'   # NOTE: this needs to be the same as the job name
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          
   snyk_test:
     name: Snyk test
     needs: [check_code]
