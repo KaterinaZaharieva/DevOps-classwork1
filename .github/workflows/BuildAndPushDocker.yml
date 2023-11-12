@@ -14,15 +14,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      - name: flake8 Lint
-        uses: py-actions/flake8@v2
+      - name: Run linter and comment PR
+        uses: matias-martini/flake8-pr-comments-action@main
         with:
-          ignore: "F401"
-          exclude: "src/ignoreme.py"
-          max-line-length: "100"
-          path: "src"
-          plugins: "flake8-bugbear==22.1.11 flake8-black"
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           
   snyk_test:
