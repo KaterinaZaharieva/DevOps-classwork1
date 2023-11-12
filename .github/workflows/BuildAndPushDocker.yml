@@ -8,16 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Lint
     steps:
-      - name: Check out source repository
-        uses: actions/checkout@v3
-      - name: Set up Python environment
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-      - name: Run linter and comment PR
-        uses: matias-martini/flake8-pr-comments-action@main
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v3
+    - uses: tonybajan/flake8-check-action@master
+      with:
+        select: E3,E4,E5,E7,W6,F,B,G0
+        maxlinelength: 100
+        repotoken: ${{ secrets.GITHUB_TOKEN }}
+        path: src
+
 
           
   snyk_test:
