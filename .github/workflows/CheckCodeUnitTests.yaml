@@ -1,5 +1,6 @@
 name: Check code style & lint and Run unit tests
-on: [workflow_call] 
+on: [workflow_call]
+
 jobs:
   check_code:
     name: Check code style & lint with flake8
