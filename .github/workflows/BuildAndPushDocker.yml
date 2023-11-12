@@ -3,9 +3,11 @@ on:
   push:
     branches: main
 jobs:
-  
+  check_code:
+    uses: ./.github/workflows/CheckCodeUnitTests.yaml
   snyk_test:
     name: Snyk test
+    needs: [check_code]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -21,6 +23,7 @@ jobs:
         
   sonnar_cloud_test:
     name: Sonnar cloud test
+    needs: [check_code]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
