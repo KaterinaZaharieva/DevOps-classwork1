@@ -1,7 +1,7 @@
 # Classwork Assignment 1
 
-You are given a Python application and a client has requested 
-your help to run it in a Docker container and automate the 
+You are given a Python application and a client has requested
+your help to run it in a Docker container and automate the
 process of building the Docker image.
 
 ## Start up
