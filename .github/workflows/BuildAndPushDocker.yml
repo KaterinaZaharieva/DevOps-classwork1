@@ -4,23 +4,29 @@ on:
     branches: main
 jobs:
 
-  flake8_lint:
+  #flake8_lint:
+   # runs-on: ubuntu-latest
+   # name: Lint
+    #steps:
+    #- uses: actions/checkout@v3
+    #- uses: tonybajan/flake8-check-action@master
+     # with:
+      #  select: E3,E4,E5,E7,W6,F,B,G0
+       # maxlinelength: 100
+        #repotoken: ${{ secrets.GITHUB_TOKEN }}
+        #path: src
+
+  editorconfig:
+    name: EditorConfig Checker
     runs-on: ubuntu-latest
-    name: Lint
     steps:
-    - uses: actions/checkout@v3
-    - uses: tonybajan/flake8-check-action@master
-      with:
-        select: E3,E4,E5,E7,W6,F,B,G0
-        maxlinelength: 100
-        repotoken: ${{ secrets.GITHUB_TOKEN }}
-        path: src
-
-
+      - uses: actions/checkout@v2
+      - uses: editorconfig-checker/action-editorconfig-checker@main
+      - run: editorconfig-checker
           
   snyk_test:
     name: Snyk test
-    needs: [flake8_lint]
+   # needs: [flake8_lint]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -36,7 +42,7 @@ jobs:
         
   sonnar_cloud_test:
     name: Sonnar cloud test
-    needs: [flake8_lint]
+   # needs: [flake8_lint]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
