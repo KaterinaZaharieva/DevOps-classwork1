@@ -15,7 +15,7 @@ to your contributions. 🎉
 > And if you like the project, but just don't have time to
 contribute, that's fine.There are other easy ways to support
 the project and show your appreciation, which we would also be very happy about:
-> 
+>
 > - Star the project
 > - Tweet about it
 > - Refer this project in your project's readme
@@ -115,9 +115,9 @@ the [bug tracker](https://github.com/KaterinaZaharieva/DevOps-classwork1issues?q
 the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
-  - 
+  -
   - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-  - 
+  -
   - Version of the interpreter, compiler, SDK, runtime environment,
 package manager, depending on what seems relevant.
   - Possibly your input and the output
@@ -127,14 +127,19 @@ And can you also reproduce it with older versions?
 <!-- omit in toc -->
 #### How Do I Submit a Good Bug Report?
 
-!> You must never report security related issues, vulnerabilities or bugs including sensitive information
-!> to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <>.
-<!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
+> You must never report security related issues, vulnerabilities
+> or bugs including sensitive information
+> to the issue tracker, or elsewhere in public.
+> Instead sensitive bugs must be sent by email to <>.
+<!-- You may add a PGP key to allow the messages 
+to be sent encrypted as well. -->
 
-!We use GitHub issues to track bugs and errors. If you run into an issue with the project:
+We use GitHub issues to track bugs and errors.
+If you run into an issue with the project:
 
 - Open an [Issue](https://github.com/KaterinaZaharieva/DevOps-classwork1/issues/new).
-!(Since we can't be sure at this point whether it is a bug or not, we ask you not to
+(Since we can't be sure at this point whether
+it is a bug or not, we ask you not to
 talk about a bug yet and not to label the issue.)
 - Explain the behavior you would expect and the actual behavior.
 - Please provide as much context as possible and describe the *reproduction steps*
