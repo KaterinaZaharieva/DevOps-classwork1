@@ -3,14 +3,18 @@
 
 First off, thanks for taking the time to contribute! ❤️
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) 
-for different ways to help and details about how this project handles them.
-Please make sure to read the relevant section before making your contribution. 
-It will make it a lot easier for us maintainers and smooth out the experience for all involved. 
-The community looks forward to your contributions. 🎉
+All types of contributions are encouraged and valued.
+See the [Table of Contents](#table-of-contents)
+for different ways to help and details about how this
+project handles them.Please make sure to read the relevant
+section before making your contribution. It will make it a
+lot easier for us maintainers and smooth out the experience
+for all involved. The community looks forward
+to your contributions. 🎉
 
-> And if you like the project, but just don't have time to contribute, that's fine.
-There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
+> And if you like the project, but just don't have time to
+contribute, that's fine.There are other easy ways to support
+the project and show your appreciation, which we would also be very happy about:
 > - Star the project
 >   
 > - Tweet about it
@@ -38,20 +42,20 @@ There are other easy ways to support the project and show your appreciation, whi
 
 This project and everyone participating in it is governed by the
 [DevOps-classwork1 Code of Conduct](https://github.com/KaterinaZaharieva/DevOps-classwork1blob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report 
+By participating, you are expected to uphold this code. Please report
 unacceptable behavior to <>.
 
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read the available doc.
 
-Before you ask a question, it is best to search for existing 
-[Issues](https://github.com/KaterinaZaharieva/DevOps-classwork1/issues) 
-that might help you. In case you have found a suitable issue and still need clarification, 
-you can write your question in this issue. It is also advisable to search the internet for 
+Before you ask a question, it is best to search for existing
+[Issues](https://github.com/KaterinaZaharieva/DevOps-classwork1/issues)
+that might help you. In case you have found a suitable issue and still need clarification,
+you can write your question in this issue. It is also advisable to search the internet for
 answers first.
 
-If you then still feel the need to ask a question and need clarification, 
+If you then still feel the need to ask a question and need clarification,
 we recommend the following:
 
 - Open an [Issue](https://github.com/KaterinaZaharieva/DevOps-classwork1/issues/new).
@@ -62,11 +66,11 @@ depending on what seems relevant.
 We will then take care of the issue as soon as possible.
 
 <!--
-You might want to create a separate issue tag for questions and include 
+You might want to create a separate issue tag for questions and include
 it in this description. People should then tag their issues accordingly.
 
-Depending on how large the project is, you may want to outsource the 
-questioning, e.g. to Stack Overflow or Gitter. You may add additional 
+Depending on how large the project is, you may want to outsource the
+questioning, e.g. to Stack Overflow or Gitter. You may add additional
 contact and information possibilities:
 - IRC
 - Slack
@@ -141,13 +145,15 @@ as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until th
 - If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other
 tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
 
-<!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
+<!-- You might want to create an issue template for bugs and errors
+that can be used as a guide and that defines the structure of the
+information to be included. If you do so, reference it here in the description. -->
 
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion for DevOps-classwork1,
-**including completely new features and minor improvements to existing functionality**. 
-Following these guidelines will help maintainers and the community to understand your 
+**including completely new features and minor improvements to existing functionality**.
+Following these guidelines will help maintainers and the community to understand your
 suggestion and find related suggestions.
 
 <!-- omit in toc -->
