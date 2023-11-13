@@ -16,13 +16,13 @@ to your contributions. 🎉
 contribute, that's fine.There are other easy ways to support
 the project and show your appreciation, which we would also be very happy about:
 > - Star the project
->   
+
 > - Tweet about it
->   
+
 > - Refer this project in your project's readme
-> 
+
 > - Mention the project at local meetups and tell your friends/colleagues
->   
+
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -51,9 +51,9 @@ unacceptable behavior to <>.
 
 Before you ask a question, it is best to search for existing
 [Issues](https://github.com/KaterinaZaharieva/DevOps-classwork1/issues)
-that might help you. In case you have found a suitable issue and still need clarification,
-you can write your question in this issue. It is also advisable to search the internet for
-answers first.
+that might help you. In case you have found a suitable issue and
+still need clarification, you can write your question in this issue.
+It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification,
 we recommend the following:
@@ -86,7 +86,7 @@ contact and information possibilities:
 ## I Want To Contribute
 
 > ### Legal Notice <!-- omit in toc -->
-
+>
 > When contributing to this project, you must agree that you have
 >  authored 100% of the content, that you have the necessary rights
 >  to the content and that the content you contribute may be provided
@@ -97,19 +97,24 @@ contact and information possibilities:
 <!-- omit in toc -->
 #### Before Submitting a Bug Report
 
-A good bug report shouldn't leave others needing to chase you up for more information.
-Therefore, we ask you to investigate carefully, collect information and describe the
-issue in detail in your report. Please complete the following steps in advance to help
-us fix any potential bug as fast as possible.
+A good bug report shouldn't leave others needing to chase you 
+up for more information. Therefore, we ask you to investigate
+carefully, collect information and describe the issue in
+detail in your report. Please complete the following steps
+in advance to help us fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible
-environment components/versions (Make sure that you have read the doc.
-If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you
-are having, check if there is not already a bug report existing for your bug or error in
+- Determine if your bug is really a bug and not
+an error on your side e.g. using incompatible
+environment components/versions
+(Make sure that you have read the doc. If you are looking
+for support, you might want to check [this section](#i-have-a-question)).
+- To see if other users have experienced
+(and potentially already solved) the same issue you are having,
+check if there is not already a bug report existing for your bug or error in
 the [bug tracker](https://github.com/KaterinaZaharieva/DevOps-classwork1issues?q=label%3Abug).
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of
+- Also make sure to search the internet
+(including Stack Overflow) to see if users outside of
 the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
@@ -151,9 +156,11 @@ information to be included. If you do so, reference it here in the description. 
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for DevOps-classwork1,
-**including completely new features and minor improvements to existing functionality**.
-Following these guidelines will help maintainers and the community to understand your
+This section guides you through submitting an 
+enhancement suggestion for DevOps-classwork1, **including completely new features 
+and minor improvements to existing functionality**.
+Following these guidelines will help maintainers 
+and the community to understand your
 suggestion and find related suggestions.
 
 <!-- omit in toc -->
@@ -186,7 +193,7 @@ You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS
 and [this tool](https://github.com/colinkeenan/silentcast) or
 [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
 - **Explain why this enhancement would be useful** to most DevOps-classwork1 users.
- You may also want to point out the other projects that solved it better and which
+You may also want to point out the other projects that solved it better and which
 could serve as inspiration.
 
 <!-- You might want to create an issue template for enhancement 
