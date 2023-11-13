@@ -15,14 +15,11 @@ to your contributions. 🎉
 > And if you like the project, but just don't have time to
 contribute, that's fine.There are other easy ways to support
 the project and show your appreciation, which we would also be very happy about:
+
 > - Star the project
-
 > - Tweet about it
-
 > - Refer this project in your project's readme
-
 > - Mention the project at local meetups and tell your friends/colleagues
-
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -156,10 +153,10 @@ information to be included. If you do so, reference it here in the description. 
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an 
+This section guides you through submitting an
 enhancement suggestion for DevOps-classwork1, **including completely new features 
 and minor improvements to existing functionality**.
-Following these guidelines will help maintainers 
+Following these guidelines will help maintainers
 and the community to understand your
 suggestion and find related suggestions.
 
@@ -191,7 +188,8 @@ and why. At this point you can also tell which alternatives do not work for you.
 the steps or point out the part which the suggestion is related to.
 You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows,
 and [this tool](https://github.com/colinkeenan/silentcast) or
-[this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
+[this tool](https://github.com/GNOME/byzanz) on Linux.
+<!-- this should only be included if the project has a GUI -->
 - **Explain why this enhancement would be useful** to most DevOps-classwork1 users.
 You may also want to point out the other projects that solved it better and which
 could serve as inspiration.
@@ -229,5 +227,5 @@ Updating, improving and correcting the documentation
 <!-- omit in toc -->
 ## Attribution
 
-This guide is based on the **contributing-gen**. 
+This guide is based on the **contributing-gen**.
 [Make your own](https://github.com/bttger/contributing-gen)!
