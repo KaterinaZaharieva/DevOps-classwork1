@@ -15,7 +15,6 @@ to your contributions. 🎉
 > And if you like the project, but just don't have time to
 contribute, that's fine.There are other easy ways to support
 the project and show your appreciation, which we would also be very happy about:
-
 > - Star the project
 > - Tweet about it
 > - Refer this project in your project's readme
@@ -85,16 +84,16 @@ contact and information possibilities:
 > ### Legal Notice <!-- omit in toc -->
 >
 > When contributing to this project, you must agree that you have
->  authored 100% of the content, that you have the necessary rights
->  to the content and that the content you contribute may be provided
->  under the project license.
+> authored 100% of the content, that you have the necessary rights
+> to the content and that the content you contribute may be provided
+> under the project license.
 
 ### Reporting Bugs
 
 <!-- omit in toc -->
 #### Before Submitting a Bug Report
 
-A good bug report shouldn't leave others needing to chase you 
+A good bug report shouldn't leave others needing to chase you
 up for more information. Therefore, we ask you to investigate
 carefully, collect information and describe the issue in
 detail in your report. Please complete the following steps
@@ -124,7 +123,7 @@ the GitHub community have discussed the issue.
 #### How Do I Submit a Good Bug Report?
 
 > You must never report security related issues, vulnerabilities or bugs including sensitive information
->  to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <>.
+> to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <>.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
@@ -154,7 +153,7 @@ information to be included. If you do so, reference it here in the description. 
 ### Suggesting Enhancements
 
 This section guides you through submitting an
-enhancement suggestion for DevOps-classwork1, **including completely new features 
+enhancement suggestion for DevOps-classwork1, **including completely new features
 and minor improvements to existing functionality**.
 Following these guidelines will help maintainers
 and the community to understand your
