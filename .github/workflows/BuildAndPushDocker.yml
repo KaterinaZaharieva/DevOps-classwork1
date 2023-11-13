@@ -4,18 +4,6 @@ on:
     branches: main
 jobs:
 
-  #flake8_lint:
-     # runs-on: ubuntu-latest
-     # name: Lint
-    #steps:
-    #- uses: actions/checkout@v3
-    #- uses: tonybajan/flake8-check-action@master
-       # with:
-      #  select: E3,E4,E5,E7,W6,F,B,G0
-         # maxlinelength: 100
-        #repotoken: ${{ secrets.GITHUB_TOKEN }}
-        #path: src
-
   editorconfig:
     name: EditorConfig Checker
     runs-on: ubuntu-latest
@@ -26,7 +14,6 @@ jobs:
 
   snyk_test:
     name: Snyk test
-     # needs: [flake8_lint]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -42,7 +29,6 @@ jobs:
 
   sonnar_cloud_test:
     name: Sonnar cloud test
-     # needs: [flake8_lint]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -53,7 +39,7 @@ jobs:
         uses: sonarsource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} 
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   push_to_registry:
     name: Push Docker image to Docker Hub
