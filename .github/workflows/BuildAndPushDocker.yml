@@ -43,16 +43,17 @@ jobs:
     name: Unit Tests
     runs-on: ubuntu-latest
     steps:
-      - name: Check out source repository
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up Python environment
-        uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v1
         with:
-          python-version: "3.11"
-      - name: Run Unit tests
-        run: |
-          pip3 install -r requirements.txt
-          python3 -m unittest src/app_test.py
+          python-version: 3.10.13
+          architecture: x64
+      - name: Install requirements
+        run: pip3 install -r src/requirements.txt
+      - name: Execute Unit Tests
+        run: python3 -m unittest src/app_test.py
 
   snyk_test:
     name: Snyk test
