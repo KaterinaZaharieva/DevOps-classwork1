@@ -39,6 +39,19 @@ jobs:
       - name: Run flake8
         uses: py-actions/flake8@v2
 
+  unit_test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v3
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Run Unit tests
+        run: python3 -m unittest src/app_test.py
+
   snyk_test:
     name: Snyk test
     runs-on: ubuntu-latest
