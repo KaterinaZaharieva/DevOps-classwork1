@@ -54,6 +54,18 @@ jobs:
       - name: Execute Unit Tests
         run: python3 -m unittest src/app_test.py
 
+  gitleaks_test:
+    name: GitLeaks Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE}} # Only required for Organizations, not personal accounts.
+
   snyk_test:
     name: Snyk test
     runs-on: ubuntu-latest
