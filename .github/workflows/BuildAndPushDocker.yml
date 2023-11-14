@@ -50,7 +50,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Run Unit tests
-        run: python3 -m unittest src/app_test.py
+        run: |
+          pip install -r requirements.txt
+          python3 -m unittest src/app_test.py
 
   snyk_test:
     name: Snyk test
